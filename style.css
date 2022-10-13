@@ -1,0 +1,223 @@
+*{
+    font-family: 'Roboto', sans-serif;    
+}
+.nav{
+    background-color:black; 
+    border-radius: solid 2px;
+    margin: 1px;
+    height: 100px;
+    display: flex;   
+    align-items:center;
+    justify-content:center;
+}
+.nav-links {
+    display: flex;
+    margin: 0px;
+    padding: 0px; 
+    flex-direction: row;
+}
+h1{
+margin: 15px;
+font-weight: 900;
+color: white;
+}
+li{
+    list-style-type: none;   
+}
+li a{
+    display: flex;
+    text-align: center;
+    padding: 14px 15px;
+    text-decoration: none;
+    color: white;
+}
+li a:hover {
+    background-color:cadetblue;
+    
+}
+.btn:hover {
+    background-color:wheat;
+    
+}
+.btn{
+    border-radius: 5px;
+    text-align: center;
+    background-color:cadetblue;
+    box-shadow: 2px 2px 2px black;  
+    padding: 14px 15px;
+    display: flex;   
+    border: 5px;
+    margin: 5px 50px 0px 180px; 
+}
+.active{
+    font-weight: 900;
+}
+.caja1{
+    background-color: cadetblue;
+    width: 450px;
+    height: 80px; 
+}
+main{
+    width: 450px;
+    height: 300px;
+    border: solid 1px gray; 
+    box-shadow: 1px 1px 1px gray;  
+    margin: 20px 0px 0px 300px;
+}
+.foto{
+    display: flex;
+    position: absolute; top: 160px; left: 320px;    
+}
+.name{
+    display: inline-block;
+    text-align: left;
+    padding: 5px;
+    margin: 25px 0px 0px 0px;
+    color: black;
+}
+.gps{
+    margin:2px 0px 0px 10px;
+    
+}
+.job{
+    margin: 2px 0px 0px 10px;
+    font-size: 14px;
+}
+.edit{
+    margin: 2px 0px 0px 10px;
+    vertical-align: bottom;
+    font-size: 15px;
+}
+.caja2{
+    background-color:darkslategray;
+    height: 40px; 
+    display: flex;
+    align-items: center; 
+}
+.main2{
+    width: 250px;
+    height: 180px;
+    background-color:white;
+    border: solid 1px gray; 
+    box-shadow: 1px 1px 1px gray;  
+    display: flexbox;
+    margin: 20px 0px 0px 30px;
+}
+.contain{
+    display: flex;
+    justify-content:baseline;
+}
+h2{
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    margin: 8px;    
+}
+.noti{   
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: cadetblue;
+    color:white;
+    border: 2px solid cadetblue;
+    text-align: center;
+    font-weight: 400; 
+    padding: 0px;
+    margin: 0px 0px 0px 4px;
+    }
+.personas h3{
+    font-size: 12px;
+    color: black;
+    margin: 8px;
+    text-align: left; 
+}
+.main3{
+    width: 450px;
+    height: 170px;
+    background-color:white;
+    border: solid 1px gray; 
+    box-shadow: 1px 1px 1px gray;  
+    display: flexbox;
+    margin: 40px 0px 0px 0px;
+    justify-content:space-between;   
+}
+.caja3{
+    background-color:darkslategray;
+    height: 40px; 
+    display: flex;    
+}   
+.ed{
+    margin: 12px 0px 0px 15px;
+    text-align: center;
+    font-size: 15px;    
+}
+.curso1{
+    font-weight: 900;
+    margin: 15px 0px 10px 15px;
+}
+.curso2{
+    font-size: 12px;
+    margin: 15px 0px 10px 15px;
+}
+.person{
+    margin:5px 10px 0px 10px;
+    display: flex;    
+}
+.iconos{
+    display: flex;
+    margin:5px 2px 0px 10px;  
+}
+.iconos img{
+    margin-left: 10px;
+}
+.recuadro{
+    display: flex;
+    padding: 5px;
+    margin:2px 0px 0px 0px;   
+    justify-content: space-between;
+}
+.main4{
+    width: 250px;
+    height: 280px;
+    background-color:white;
+    border: solid 1px gray; 
+    box-shadow: 1px 1px 1px gray;  
+    display: flexbox;
+    margin: 20px 0px 0px 30px;        
+}
+.caja4{
+    background-color:darkslategray;
+    height: 40px; 
+    display: flex;    
+}   
+.noti2{   
+    width: 30px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: cadetblue;
+    color:white;
+    border: 2px solid cadetblue;
+    text-align: center;
+    font-weight: 400; 
+    padding: 0px;
+    margin: 10px 0px 0px 4px;
+    }
+.recuadro2{
+    display: flex;
+    padding: 5px;
+    margin:2px 0px 0px 0px;   
+    justify-content: space-between;
+    flex-direction: column;
+}
+.recuadro2 .person{
+    margin-top: 10px;
+}
+.footer{
+    border: solid 1px black;
+    border-color: grey;
+    margin-top: 5px;
+}
+.more{
+    margin-left: 10px;
+    font-size: 15px;
+}
