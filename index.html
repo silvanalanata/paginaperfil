@@ -30,7 +30,7 @@
                         <img  src="icons/user-circle.png"   width="70" height="70" alt="foto perfil"> 
                     </section>
                 </section>
-                <h1 class="name">Jane Doe</h1> 
+                <h1 class="name" id ="name" value="Jane Doe">Jane Doe</h1> 
                 <section class="gps">
                     <p> 
                         <img  src="icons/map-marker.png"  width="13" height="20" alt="ubicacion">  Seattle 
@@ -42,7 +42,7 @@
                 </section> 
                 <section class="edit">
                     <p> 
-                        <img  src="icons/gear.png"  width="15" height="15" alt="editar">  <a href="#"> Edite Profile </a>
+                     <img  src="icons/gear.png"  width="15" height="15" alt="editar">  <a href="#" onclick="profile()"> Edite Profile </a>
                     </p>
                 </section>
                 <article>
@@ -65,29 +65,29 @@
                         <h2> Connection Request</h2>
                     </div>
                     <div>
-                        <section class="recuadro">
+                        <section class="recuadro" id="recuadro1">
                             <div class="person">                                             
                                 <img  src="icons/todd-s.jpg"  width="32" height="32" alt="Todd"> Todd E                                                      
                             </div>  
                             <div class="iconos">                    
-                                <img src="icons/accept-circle.png"  width="32" height="32" alt="Acept"> 
-                                <img src="icons/close-circle.png"  width="32" height="32" alt="Close">                                      
+                                <img onclick="aceptar()"src="icons/accept-circle.png"  width="32" height="32" alt="Acept"> 
+                                <img onclick="remover()" src="icons/close-circle.png"  width="32" height="32" alt="Close">                                      
                             </div>  
                         </section>  
-                        <section class="recuadro">                    
+                        <section class="recuadro" id="recuadro2">                    
                             <div class="person">                          
                                 <img  src="icons/phil-s.jpg"  width="32" height="32" alt="Phil"> Phil K
                             </div>
                             <div class="iconos">                    
-                                <img src="icons/accept-circle.png"  width="32" height="32" alt="Acept">                             
-                                <img src="icons/close-circle.png"  width="32" height="32" alt="Close">                                      
+                                <img onclick="aceptar()" src="icons/accept-circle.png"  width="32" height="32" alt="Acept">                             
+                               <img  onclick="remover2()" src="icons/close-circle.png"  width="32" height="32" alt="Close">                                      
                             </div> 
                         </section>
                     </div>
                 </section>     
                 <section class="main4">
                     <div class="caja4"> 
-                        <button class="noti2">500+</button>
+                        <button class="noti2">418</button>
                         <h2> Your Connections</h2>
                     </div>  
                     <div>
@@ -113,5 +113,6 @@
                 </section>          
             </aside>   
         </div>
+    <script src="app.js"></script>
 </body>
 </html>
